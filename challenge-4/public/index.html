@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coderhouse Backend Server</title>
+  </head>
+  <body>
+    <h1>Coderhouse Backend Server</h1>
+    <h2>ENTER PRODUCT</h2>
+    <form action="/api/products" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" name="title" placeholder="Enter product name" />
+      <label for="price">Price:</label>
+      <input type="text" name="price" placeholder="Enter product price" />
+      <label for="thumbnail">Thumbnail:</label>
+      <input
+        type="text"
+        name="thumbnail"
+        placeholder="Enter product thumbnail"
+      />
+      <input type="submit" value="ADD PRODUCT" />
+    </form>
+  </body>
+</html>
